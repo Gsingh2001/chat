@@ -1,5 +1,4 @@
 import React from 'react'
-import './Styles.css';
 import { Sidebar } from '../component/Sidebar';
 import { Chat } from '../component/Chat';
 

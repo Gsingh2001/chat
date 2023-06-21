@@ -1,8 +1,36 @@
 import React from 'react'
-import '../pages/Styles.css';
 
 export const Chats = () => {
   return (
-    <div className='chat'>Chats</div>
+    <div className='chat'>
+      <div className="userchat">
+        <img className="img" src="./img/bhavuu.jpg" alt="" />
+        <div className="userchatinfo">
+          <span className='span'>Bhavu</span>
+          <p className='p'>Hello</p>
+        </div>
+      </div>
+      <div className="userchat">
+        <img className="img" src="./img/bhavuu.jpg" alt="" />
+        <div className="userchatinfo">
+          <span className='span'>Bhavu</span>
+          <p className='p'>Hello</p>
+        </div>
+      </div>
+      <div className="userchat">
+        <img className="img" src="./img/bhavuu.jpg" alt="" />
+        <div className="userchatinfo">
+          <span className='span'>Bhavu</span>
+          <p className='p'>Hello</p>
+        </div>
+      </div>
+      <div className="userchat">
+        <img className="img" src="./img/bhavuu.jpg" alt="" />
+        <div className="userchatinfo">
+          <span className='span'>Bhavu</span>
+          <p className='p'>Hello</p>
+        </div>
+      </div>
+    </div>
   )
 }

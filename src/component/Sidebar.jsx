@@ -1,8 +1,14 @@
 import React from 'react'
-import '../pages/Styles.css';
+import { Navbar } from './Navbar';
+import { Chats } from './Chats';
+import Search from './Search';
 
 export const Sidebar = () => {
   return (
-    <div className='sidebar'>Sidebar</div>
+    <div className='sidebar'>
+      <Navbar />
+      <Search />
+      <Chats />
+    </div>
   )
 }
